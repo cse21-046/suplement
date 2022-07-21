@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <title>NewWORLDTheaters</title>
+</head>
+
+<style>
+*{box-sizing:border-box;
+}
+body{
+margin: 0;
+background: #000000;
+}
+.container{
+width: 80%;
+margin: 0;
+}
+header{
+background-color: #06038D;
+}
+header::after{
+content:'';
+display: table;
+clear: both;
+}
+nav{
+float: right;
+}
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.logo{
+float: left;
+color: white;
+font-size: 40px;
+font-family: berlin sans fb;
+padding: 10px 0;
+}
+.logo a{
+color: white;
+text-decoration: none;
+}
+.logo a:hover{
+color: orange;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 30px;
+
+}
+nav ul li a{
+color: white;
+font-family: arial narrow;
+font-size: 17px;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav ul li a:hover{
+color: #FFA500;
+}
+.content{
+max-width: 1200px;
+margin: auto;
+overflow:auto;
+}
+.movie{
+margin: 10px;
+float: left;
+width: 390px;
+float: left;
+border: 2px solid white;
+}
+.movie img{
+width: 100%;
+height: auto;
+border: 2px solid white;
+border-radius: 10px;
+}
+.description{
+padding: 15px;
+text-align: center;
+color: white;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+.title{
+color: white;
+text-align: center;
+padding-top: 60px;
+margin: 0;
+font-size: 40px;
+text-transform: uppercase;
+font-family: Bahnschrift;
+text-decoration: underline;
+}
+footer{
+color: white;
+text-align: center;
+font-size: 20px;
+font-family: Bahnschrift;
+text-transform: uppercase;
+background: #06038D;
+}
+#one{
+position: absolute;
+right: 20px;
+top: 185px;
+border: 2px solid white;
+}
+#one img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#two{
+position: absolute;
+right: 20px;
+top: 835px;
+border: 2px solid white;
+}
+#two img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#three{
+position: absolute;
+right: 20px;
+top: 1500px;
+border: 2px solid white;
+}
+#three img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+.name{
+color: white;
+padding: 15px;
+text-align: center;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+</style>
+
+<body>
+   <header>
+   <div class="container">
+   <div class="logo"><a href="index.html">NEWMOVIES</a></div>
+   <nav>
+   
+   <ul>
+   <li><a href="Action.html">Action</a></li>
+   <li><a href="comedy.html">Comedy</a></li>
+   <li><a href="latest.html">Latest</a></li>
+   <li><a href="contact.html">Contact Us</a></li>
+   <li><a href="feedback.html">Feedback</a></li>
+   
+   </ul>
+   
+   </nav>
+   </div>
+   </header>
+   
+   <div class="title">latest movies</div>
+   
+   <div class="content">
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_9243804_706f2278.jpg" alt="load fail">
+   <div class="description">Green knight</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_13320622_305e0397.jpg" alt="load fail">
+   <div class="description">the lost city</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_14174940_3cd157da.jpg" alt="load fail">
+   <div class="description">interceptor</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_8115900_5efc684a.jpg" alt="load fail">
+   <div class="description">the bad guys</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_4998632_b4bcb0d2.jpg" alt="load fail">
+   <div class="description">Ambulance</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_5361596_3e05677b.jpg" alt="load fail">
+   <div class="description">the incantation</div>
+   </div>
+   
+   </div>
+   
+   <div id="one">
+   <img src="C:\Users\cse21-046\Downloads\xl_9783600_3c2479e4.jpg" alt="load fail">
+   <div class="name">spiderhead</div>
+   </div>
+   
+   <div id="two">
+   <img src="C:\Users\cse21-046\Downloads\xl_2180339_d75ee244.jpg" alt="load fail">
+   <div class="name">deep water</div>
+   </div>
+   
+   <div id="three">
+   <img src="C:\Users\cse21-046\Downloads\xl_13235822_823a0b45.jpg" alt="load fail">
+   <div class="name">umma</div>
+   </div>
+   
+</body>
+
+      <footer>
+
+         New Movies<br>Private bag 12345</br>email: NewMO@gmail.com
+
+       </footer>		
+
+
+
+
+
+
+
+
+
+</html>

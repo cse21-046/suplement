@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <title>NewWORLDTheaters</title>
+</head>
+
+<style>
+*{box-sizing:border-box;
+}
+body{
+margin: 0;
+background: #000000;
+}
+.container{
+width: 80%;
+margin: 0;
+}
+header{
+background-color: #06038D;
+}
+header::after{
+content:'';
+display: table;
+clear: both;
+}
+nav{
+float: right;
+}
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.logo{
+float: left;
+color: white;
+font-size: 40px;
+font-family: berlin sans fb;
+padding: 10px 0;
+}
+.logo a{
+color: white;
+text-decoration: none;
+}
+.logo a:hover{
+color: orange;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 30px;
+
+}
+nav ul li a{
+color: white;
+font-family: arial narrow;
+font-size: 17px;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav ul li a:hover{
+color: #FFA500;
+}
+.content{
+max-width: 1200px;
+margin: auto;
+overflow:auto;
+}
+.movie{
+margin: 10px;
+float: left;
+width: 390px;
+float: left;
+border: 2px solid white;
+}
+.movie img{
+width: 100%;
+height: auto;
+border: 2px solid white;
+border-radius: 10px;
+}
+.description{
+padding: 15px;
+text-align: center;
+color: white;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+.title{
+color: white;
+text-align: center;
+padding-top: 60px;
+margin: 0;
+font-size: 40px;
+text-transform: uppercase;
+font-family: Bahnschrift;
+text-decoration: underline;
+}
+footer{
+color: white;
+text-align: center;
+font-size: 20px;
+font-family: Bahnschrift;
+text-transform: uppercase;
+background: #06038D;
+}
+#one{
+position: absolute;
+right: 20px;
+top: 185px;
+border: 2px solid white;
+}
+#one img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#two{
+position: absolute;
+right: 20px;
+top: 835px;
+border: 2px solid white;
+}
+#two img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#three{
+position: absolute;
+right: 20px;
+top: 1490px;
+border: 2px solid white;
+}
+#three img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+.name{
+color: white;
+padding: 15px;
+text-align: center;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+.description a{
+color: white;
+text-decoration: none;
+}
+</style>
+
+<body>
+   <header>
+   <div class="container">
+   <div class="logo"><a href="index.html">NEWMOVIES</a></div>
+   <nav>
+   
+   <ul>
+   <li><a href="Action.html">Action</a></li>
+   <li><a href="comedy.html">Comedy</a></li>
+   <li><a href="latest.html">Latest</a></li>
+   <li><a href="feedback1.html">Feedback</a></li>
+   
+   </ul>
+   
+   </nav>
+   </div>
+   </header>
+   
+   <div class="title">Now Showing</div>
+   
+   <div class="content">
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_145487_821ea90e.jpg" alt="load fail">
+   <div class="description"><a href="spiderman.html">Spider-Man</a></div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_a04c7ae9.jpg" alt="load fail">
+   <div class="description">Legend</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_884328_70bfbc5a.jpg" alt="load fail">
+   <div class="description">The Mist</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_1270797_9f748b5b.jpg" alt="load fail">
+   <div class="description">Venom</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_8367814_12c3c387.jpg" alt="load fail">
+   <div class="description">The Gentlemen</div>
+   </div>
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_6499752_b2dcddda.jpg" alt="load fail">
+   <div class="description">Upgrade</div>
+   </div>
+   
+   </div>
+   
+   <div id="one">
+   <img src="C:\Users\cse21-046\Downloads\xl_848228_df20a875.jpg" alt="load fail">
+   <div class="name">Avengers</div>
+   </div>
+   
+   <div id="two">
+   <img src="C:\Users\cse21-046\Downloads\xl_1939659_39ea3e89.jpg" alt="load fail">
+   <div class="name">Carrie</div>
+   </div>
+   
+   <div id="three">
+   <img src="C:\Users\cse21-046\Downloads\xl_96757_0406942_3fd8d6a4.jpg" alt="load fail">
+   <div class="name">Lost</div>
+   </div>
+   
+</body>
+
+      <footer>
+
+         New Movies<br>Private bag 12345</br>email: NewMO@gmail.com
+
+       </footer>		
+
+
+
+
+
+
+
+
+
+</html>

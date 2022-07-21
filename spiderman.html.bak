@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <title>NewWORLDTheaters</title>
+</head>
+
+<style>
+*{box-sizing:border-box;
+}
+body{
+margin: 0;
+background: #b78727;
+}
+.container{
+width: 80%;
+margin: 0;
+}
+header{
+background-color: #06038D;
+}
+header::after{
+content:'';
+display: table;
+clear: both;
+}
+nav{
+float: right;
+}
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.logo{
+float: left;
+color: white;
+font-size: 40px;
+font-family: berlin sans fb;
+padding: 10px 0;
+}
+.logo a{
+color: white;
+text-decoration: none;
+}
+.logo a:hover{
+color: orange;
+}
+nav li{
+display: inline-block;
+margin-left: 70px;
+padding-top: 30px;
+
+}
+nav ul li a{
+color: white;
+font-family: arial narrow;
+font-size: 17px;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav ul li a:hover{
+color: #FFA500;
+}
+.content{
+max-width: 1200px;
+margin: auto;
+overflow:auto;
+}
+.movie{
+margin: 10px;
+float: left;
+width: 390px;
+float: left;
+border: 2px solid white;
+}
+.movie img{
+width: 100%;
+height: auto;
+border: 2px solid white;
+border-radius: 10px;
+}
+.description{
+padding: 15px;
+text-align: center;
+color: white;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+.title{
+color: white;
+text-align: center;
+padding-top: 60px;
+margin: 0;
+font-size: 40px;
+text-transform: uppercase;
+font-family: Bahnschrift;
+text-decoration: underline;
+}
+footer{
+color: white;
+text-align: center;
+font-size: 20px;
+font-family: Bahnschrift;
+text-transform: uppercase;
+background: #06038D;
+position: absolute;
+top: 1000px;
+}
+#one{
+position: absolute;
+right: 20px;
+top: 185px;
+border: 2px solid white;
+}
+#one img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#two{
+position: absolute;
+right: 20px;
+top: 835px;
+border: 2px solid white;
+}
+#two img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+#three{
+position: absolute;
+right: 20px;
+top: 1490px;
+border: 2px solid white;
+}
+#three img{
+height: 560px;
+width: 390px;
+border-radius: 10px;
+border: 2px solid white;
+}
+.name{
+color: white;
+padding: 15px;
+text-align: center;
+font-size: 20px;
+font-family: Felix Titling;
+text-transform: uppercase;
+}
+.banner-img{
+background-image: url(C:\Users\cse21-046\Downloads\xl_145487_821ea90e.jpg);
+}
+.text{
+color: white;
+text-align: center;
+font-size: 20px;
+font-family: Bahnschrift;
+}
+</style>
+
+<body>
+   <header>
+   <div class="container">
+   <div class="logo"><a href="index.html">NEWMOVIES</a></div>
+   <nav>
+   
+   <ul>
+   <li><a href="Action.html">Action</a></li>
+   <li><a href="comedy.html">Comedy</a></li>
+   <li><a href="latest.html">Latest</a></li>
+   <li><a href="feedback1.html">Feedback</a></li>
+   
+   </ul>
+   
+   </nav>
+   </div>
+   </header>
+   
+   <div class="banner-img"></div>
+   
+   <div class="title">Spider-man</div>
+   
+   <div class="content">
+   
+   <div class="movie">
+   <img src="C:\Users\cse21-046\Downloads\xl_145487_821ea90e.jpg" alt="load fail">
+   <div class="description">buy Ticket</div>
+   </div>
+   
+   <div class="text">
+   When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.
+
+Director
+Sam Raimi
+Writers
+Stan Lee(Marvel comic book)Steve Ditko(Marvel comic book)David Koepp(screenplay)
+Stars
+Tobey MaguireKirsten DunstWillem Dafoe
+</div>
+   
+   
+</body>
+
+      <footer>
+
+         New Movies<br>Private bag 12345</br>email: NewMO@gmail.com
+
+       </footer>		
+
+
+
+
+
+
+
+
+
+</html>
